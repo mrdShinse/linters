@@ -5,7 +5,7 @@ describe MrdshinseSampleGem do
     expect(MrdshinseSampleGem::VERSION).not_to be nil
   end
 
-  it 'does something useful' do
-    expect(false).to eq(true)
+  it 'say hello' do
+    expect(MrdshinseSampleGem::Man.hello).to eq("hello")
   end
 end
