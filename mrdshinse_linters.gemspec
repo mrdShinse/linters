@@ -1,17 +1,17 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'mrdshinse_sample_gem/version'
+require 'mrdshinse_linters/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "mrdshinse_sample_gem"
-  spec.version       = MrdshinseSampleGem::VERSION
+  spec.name          = "mrdshinse_linters"
+  spec.version       = MrdshinseLinters::VERSION
   spec.authors       = ["mrdShinse"]
   spec.email         = ["shinse1128@hotmail.com"]
 
-  spec.summary       = "just a hobby gem"
-  spec.description   = "created by mrdshinse for learning creating gem."
-  spec.homepage      = "https://github.com/mrdShinse/sample_gem"
+  spec.summary       = "linter files for mrdshinse"
+  spec.description   = "linter files for mrdshinse."
+  spec.homepage      = "https://github.com/mrdShinse/linters"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
