@@ -1,0 +1,9 @@
+AllCops:
+  Exclude:
+    - './**/*.jbuilder'
+    - './bin/**/*'
+    - './db/schema.rb'
+    - './db/migrate/**/*'
+
+Style/AsciiComments:
+  Enabled: false
